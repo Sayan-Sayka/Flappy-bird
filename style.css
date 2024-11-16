@@ -1,0 +1,41 @@
+
+body{
+    background-color: #5cb608;
+}
+.game{
+    width:1345px;
+    height:630px;
+    border:2px solid #e1e1e1;
+    position:absolute;
+}
+.sky{
+    background-image: url('https://i0.wp.com/www.albertopasca.it/whiletrue/wp-content/uploads/2014/02/MarioBackground-scrolling-top.png');
+    background-size: cover;
+    background-color: aquamarine;
+    width:1345px;
+    height:520px;
+    position:absolute;
+}
+.ground{
+    background-image:url('https://ai.thestempedia.com/wp-content/uploads/2023/05/floor-sprite.png');
+    background-size: cover;
+    width:1345px;
+    height:110px;
+    position:absolute;
+    top:520px;
+    z-index: 5;
+}
+.bird{
+    background-image:url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/88bd1a05-f553-4688-a8d6-7eb6e24452ef/dflqvid-8539ba75-8485-4dab-8d51-933dd3747a5a.png/v1/fill/w_1041,h_768/flappy_bird_by_marirocks174_dflqvid-pre.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9OTQ0IiwicGF0aCI6IlwvZlwvODhiZDFhMDUtZjU1My00Njg4LWE4ZDYtN2ViNmUyNDQ1MmVmXC9kZmxxdmlkLTg1MzliYTc1LTg0ODUtNGRhYi04ZDUxLTkzM2RkMzc0N2E1YS5wbmciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.I3gBobUJhwpsLAApEmv_fpT_G5RA7HVLPvdRKWR4bvk');
+    background-size: cover;
+    width:60px;
+    height: 45px;
+    position:absolute;
+}
+.block{
+    background-image:url('https://www.pngkey.com/png/full/437-4376722_pipe-8-bit-mario-pipe-png.png');
+    background-size: cover;
+    width:100px;
+    height:400px;
+    position:absolute;
+}
